@@ -21,41 +21,35 @@ export default {
 
 .home-page {
   color: #ffffff;
-  background-image: url('/public/fundo2.jpg'); /* Use uma imagem de alta resolução */
-  background-size: cover; /* Faz a imagem cobrir toda a área disponível */
-  background-repeat: no-repeat; /* Impede a repetição da imagem */
-  background-position: center; /* Centraliza a imagem na tela */
-  padding: 0; /* Remova o padding para centralizar corretamente */
-  background-color: #121212; /* Cor de fundo de suporte */
-  height: 100vh; /* Garante que a seção ocupe 100% da altura da tela */
-  display: flex; /* Ativa o Flexbox */
-  justify-content: center; /* Centraliza horizontalmente */
+  background-image: url('/public/fundo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
   background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
   .home-page {
-    background-image: url('/public/fundo-mobile1.jpg'); /* Imagem específica para dispositivos móveis */
-    background-attachment: scroll; /* Remove o efeito de fixação para móveis */
-    background-size: cover; /* Faz a imagem cobrir toda a área disponível */
+    background-image: url('/public/fundo-mobile1.jpg');
+    background-attachment: scroll;
+    background-size: cover;
   }
 
   .name-container {
-    font-size: 1.5em; /* Ajuste o tamanho da fonte para telas menores */
-    padding: 20px; /* Adiciona um pouco de padding para os dispositivos móveis */
+    font-size: 1.5em;
+    padding: 20px;
   }
 }
 
 .name-container {
   margin-top: 100px;
 }
-
-.content-2 {
-  padding: 20px;
-  color: #121212;
-}
-
 
 @keyframes swing {
   0% {
@@ -78,8 +72,7 @@ export default {
 .animated-text {
   opacity: 0;
   transform: translateY(20px); /* Começa com o texto deslocado para baixo */
-  animation: fadeInUp 5s ease-in-out infinite;
-  /* Adiciona um atraso diferente para cada elemento */
+  animation: fadeInUp 5s ease-in-out infinite; /* Adiciona um atraso diferente para cada elemento */
 }
 
 .animated-text:nth-child(2) {

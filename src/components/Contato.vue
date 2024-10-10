@@ -54,6 +54,7 @@
       </div>
       <p>Enviando sua mensagem, por favor aguarde...</p>
     </div>
+
     <!-- Mensagem de confirmação -->
     <div v-else-if="emailEnviado">
       <div class="msg-success">

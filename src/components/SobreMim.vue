@@ -41,13 +41,13 @@ export default {
   padding: 20px;
   color: #ffffff;
   background-color: #121212;
-  margin-bottom: 20px; /* Espaço entre o título e o card */
+  margin-bottom: 20px;
 }
 
 .card-container {
   display: flex;
   align-items: center;
-  justify-content: center; /* Centraliza o card horizontalmente */
+  justify-content: center;
   padding: 20px;
 }
 

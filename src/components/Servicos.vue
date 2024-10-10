@@ -41,7 +41,7 @@ export default {
   padding: 20px;
   color: #ffffff;
   background-color: #121212;
-  margin-bottom: 20px; /* Espaço entre o título e o card */
+  margin-bottom: 20px;
 }
 
 .content-ol {
@@ -53,7 +53,7 @@ export default {
 .image-container-site {
   display: flex;
   align-items: center;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center;
   gap: 50px;
   padding: 20px;
   color: #121212;
@@ -89,12 +89,12 @@ export default {
 @media (max-width: 768px) {
   .image-container-site {
     flex-direction: column;
-    text-align: center; /* Centraliza o texto e a imagem no mobile */
+    text-align: center;
   }
 
   .image-site {
     margin-top: 15px;
-    max-width: 100%; /* A imagem ocupa toda a largura disponível no celular */
+    max-width: 100%;
   }
 }
 

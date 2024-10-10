@@ -89,9 +89,9 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #121212; /* Cor de fundo da navbar */
-  padding: 10px 20px; /* Espaçamento interno */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+  background-color: #121212;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .nav-links li a {

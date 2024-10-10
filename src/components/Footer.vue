@@ -34,12 +34,12 @@ export default {
 
 .d-flex {
   display: flex;
-  justify-content: center; /* Centraliza os ícones na horizontal */
-  align-items: center; /* Centraliza os ícones na vertical */
+  justify-content: center;
+  align-items: center;
 }
 
 .col-auto {
-  margin: 0 10px; /* Adiciona espaçamento entre os ícones */
+  margin: 0 10px;
 }
 
 .footer-icon {
