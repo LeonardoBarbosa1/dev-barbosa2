@@ -4,21 +4,23 @@
       <h1>Serviços</h1>
       <p>Desenvolvimento de soluções digitais para garantir o melhor desempenho e experiência do usuário.</p>
     </div>
+    <div class="img-content">
+      <div class="image-container-site">
+        <img src="site-responsivo.png" alt="Minha Imagem" class="image-site"/>
+      </div>
 
-    <div class="image-container-site">
-      <img src="site-responsivo.png" alt="Minha Imagem" class="image-site"/>
+      <div class="content-ol">
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item">Desenvolvimento de sites responsivos</li>
+          <li class="list-group-item">Aplicativos web personalizados</li>
+          <li class="list-group-item">Desenvolvimento de sistemas em PHP (Laravel, Yii2)</li>
+          <li class="list-group-item">Criação de interfaces com Vue.js e jQuery</li>
+          <li class="list-group-item">Integração de APIs</li>
+          <li class="list-group-item">Manutenção e suporte técnico contínuo</li>
+        </ol>
+      </div>
     </div>
 
-    <div class="content-ol">
-      <ol class="list-group list-group-numbered">
-        <li class="list-group-item">Desenvolvimento de sites responsivos</li>
-        <li class="list-group-item">Aplicativos web personalizados</li>
-        <li class="list-group-item">Desenvolvimento de sistemas em PHP (Laravel, Yii2)</li>
-        <li class="list-group-item">Criação de interfaces com Vue.js e jQuery</li>
-        <li class="list-group-item">Integração de APIs</li>
-        <li class="list-group-item">Manutenção e suporte técnico contínuo</li>
-      </ol>
-    </div>
   </div>
 </template>
 
@@ -30,6 +32,10 @@ export default {
 </script>
 
 <style scoped>
+.img-content{
+  background-color: #fff;
+  border-radius: 15px;
+}
 
 .content {
   padding: 20px;
