@@ -35,6 +35,12 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .home-page {
+    background-image: url('/public/fundo-mobile1.jpg'); /* Imagem específica para dispositivos móveis */
+    background-attachment: scroll; /* Remove o efeito de fixação para móveis */
+    background-size: cover; /* Faz a imagem cobrir toda a área disponível */
+  }
+
   .name-container {
     font-size: 1.5em; /* Ajuste o tamanho da fonte para telas menores */
     padding: 20px; /* Adiciona um pouco de padding para os dispositivos móveis */
